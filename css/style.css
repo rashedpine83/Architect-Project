@@ -12,3 +12,133 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.btn{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    border: none;
+}
+
+/* header section style start */
+
+.header-container{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 0 auto;
+    padding: 60px 240px 25px 240px;
+    text-align: center;
+    max-width: 1920px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-bottom: 116px;
+}
+.architect{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+.manu-bar{
+    display: flex;
+    gap: 30px;   
+}
+.manu-bar li{
+    list-style: none;
+}
+.manu-bar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #727272;
+    font-weight: 600;
+}
+.heading-area{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-image{
+    width: 100%;
+}
+.architect-heading{
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.sub-title{
+    color: #727272;
+    line-height: 26px;
+    margin: 32px 100px;
+}
+/* header section style end */
+
+/* feature one area style start */
+
+.feature-one-container{
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    gap: 73px;
+    padding: 85px 301px 130px 301px;
+    align-items: center;
+}
+.feature-one-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-one-images img{
+    width: 342px;
+    height: 342px;
+}
+.feature-one-heading{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.feature{
+    color: #FF900E;
+    font-weight: 700;
+}
+.feature-one-detail{
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* media Quary style start */
+
+@media screen and (max-width:576px) {
+    .menu{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .architect{
+        font-size: 2rem;
+    }
+    .header-container{
+        padding: 50px 30px
+    }
+    .manu-bar{
+        margin: 0 auto;
+    }
+    .architect-heading{
+        font-size: 3rem;
+    }
+    .sub-title{
+        margin: 25px 0;
+    }
+}
